@@ -1,9 +1,12 @@
 ## Introduction to Weaviate - Online Workshop
 
-This repository contains files related to the workshop "Introduction to Weaviate", which was first run on 4 Apr 2023.
+This repository contains files related to the "Introduction to Weaviate" workshops, which we run periodically for an enthusiastic audience.
 
-The demo code in `1_weaviate_examples.ipynb` is written to connect to a pre-populated Weaviate instance at `https://edu-demo.weaviate.network` as a read-only user.
+The repository is live, and will be updated with new content as we run more workshops and iterate from your feedback.
 
-The demo code in `2_build_new_db.ipynb` is written to connect to a new Weaviate Cloud Services (WCS) instance.
+You can run the code using an online environment such as Google Colab, or locally.
 
+### Weaviate Cloud Services
+
+Some of the workshop code and examples are written around Weaviate Cloud Services (WCS).
 You can sign up to WCS and create a free sandbox instance at `https://console.weaviate.cloud`.
