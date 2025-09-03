@@ -6,15 +6,21 @@ The repository is live, and will be updated with new content as we run more work
 
 You can run the code using an online environment such as Google Colab, or locally.
 
-## Notebooks explained
+## Key files
 
-The notebooks are numbered based on the order in which they are used in the workshop. The notebooks are as follows:
+The notebooks are as follows:
 
-- `workshop_clean.ipynb`: A blank notebook for the audience to follow along with the instructor
-- `workshop.ipynb`: A pre-filled version of the notebook above, with the code already written
+- `workshop.ipynb`: For the audience to follow along with the instructor
+- `workshop_finished.ipynb`: A completed version of the above notebook
 - `z_optional_explain_vectors.ipynb`: An optional notebook for explaining how vectors represent meaning
+
+### For instructors
+
+- `generate_student_notebook.py`:
+    - Create a student version of the notebook from `workshop.ipynb`.
+    - Strips sections of cells between `# BEGIN_SOLUTION` & `# END_SOLUTION` and replaces it with `# ADD YOUR CODE HERE`.
 
 ### Weaviate Cloud Services
 
-Some of the workshop code and examples are written around Weaviate Cloud Services (WCS).
+Some of the workshop code and examples are written around Weaviate Cloud (WCD).
 You can sign up to WCS and create a free sandbox instance at `https://console.weaviate.cloud`.
