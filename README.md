@@ -11,13 +11,13 @@ You can run the code using an online environment such as Google Colab, or locall
 The notebooks are as follows:
 
 - `workshop.ipynb`: For the audience to follow along with the instructor
-- `workshop_finished.ipynb`: A completed version of the above notebook
+- `workshop-complete.ipynb`: A completed version of the above notebook
 - `z_optional_explain_vectors.ipynb`: An optional notebook for explaining how vectors represent meaning
 
 ### For instructors
 
 - `generate_student_notebook.py`:
-    - Create a student version of the notebook from `workshop.ipynb`.
+    - Run this to create a student version of the notebook `workshop.ipynb` from `workshop-complete.ipynb`.
     - Strips sections of cells between `# BEGIN_SOLUTION` & `# END_SOLUTION` and replaces it with `# ADD YOUR CODE HERE`.
 
 ### Weaviate Cloud Services
